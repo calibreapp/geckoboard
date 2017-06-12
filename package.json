@@ -1,0 +1,15 @@
+{
+  "name": "calibre-geckoboard",
+  "version": "1.0.0",
+  "description": "Get metrics from Calibre into Geckoboard!",
+  "main": "index.js",
+  "author": "Ben Schwarz",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": "7.8.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "geckoboard": "^1.1.0"
+  }
+}

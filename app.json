@@ -1,0 +1,22 @@
+{
+  "name": "Calibre Geckoboard",
+  "description": "Receive Calibre snapshot webhooks, push to Geckoboard",
+  "repository": "https://github.com/calibreapp/geckoboard",
+  "logo": "https://icons.calibreapp.com/https%3A%2F%2Fcalibreapp.com",
+  "keywords": [
+    "node",
+    "express",
+    "geckoboard",
+    "calibre"
+  ],
+  "env": {
+    "GECKOBOARD_API_KEY": {
+      "description": "A Geckoboard API key",
+      "required": true
+    },
+    "CALIBRE_API_KEY": {
+      "description": "The API key of the site in Calibre",
+      "required": true
+    }
+  }
+}
