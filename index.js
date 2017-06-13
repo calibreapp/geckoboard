@@ -3,6 +3,9 @@ require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 const geckoboard = require('geckoboard')(process.env.GECKOBOARD_API_KEY)
+
+const Metrics = require('./src/metrics')
+
 const metricWhitelist = process.env.METRIC_WHITELIST.split(',')
 const app = express()
 const port = process.env.PORT || 3000
