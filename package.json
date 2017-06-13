@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "geckoboard": "^1.1.0",
     "moment": "^2.18.1",
     "slug": "^0.9.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
