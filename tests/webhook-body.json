@@ -1,0 +1,294 @@
+{
+  "id": 589,
+  "organisation_id": "ben-s-orgs",
+  "site_id": "ryanair",
+  "primary_region_id": "eu-central",
+  "ref": null,
+  "status": "completed",
+  "html_url": "https://calibreapp.com/ben-s-orgs/ryanair/snapshots/589",
+  "url": "https://calibreapp.com/api/sites/ryanair/snapshots/589.json",
+  "created_at": "2017-06-13T02:26:45.133Z",
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home",
+      "status": "completed",
+      "endpoint": "https://www.ryanair.com/gb/en/",
+      "canonical": true,
+      "profile": "Chrome Desktop",
+      "metrics": [
+        {
+          "name": "console_warnings",
+          "value": 0
+        },
+        {
+          "name": "speed_index",
+          "value": 11451
+        },
+        {
+          "name": "visually_complete",
+          "value": 19493
+        },
+        {
+          "name": "firstRender",
+          "value": 2318
+        },
+        {
+          "name": "lighthouse-best-practices-score",
+          "value": 69
+        },
+        {
+          "name": "lighthouse-accessibility-score",
+          "value": 71
+        },
+        {
+          "name": "lighthouse-performance-score",
+          "value": 26
+        },
+        {
+          "name": "lighthouse-pwa-score",
+          "value": 36
+        },
+        {
+          "name": "first-contentful-paint",
+          "value": 1544
+        },
+        {
+          "name": "first-meaningful-paint",
+          "value": 6160
+        },
+        {
+          "name": "dom-size",
+          "value": 3277
+        },
+        {
+          "name": "estimated-input-latency",
+          "value": 263
+        },
+        {
+          "name": "consistently-interactive",
+          "value": 13721
+        },
+        {
+          "name": "first-interactive",
+          "value": 13721
+        },
+        {
+          "name": "json_size_in_bytes",
+          "value": 166221
+        },
+        {
+          "name": "image_size_in_bytes",
+          "value": 3349334
+        },
+        {
+          "name": "font_size_in_bytes",
+          "value": 29654
+        },
+        {
+          "name": "js_size_in_bytes",
+          "value": 601794
+        },
+        {
+          "name": "css_size_in_bytes",
+          "value": 175717
+        },
+        {
+          "name": "html_size_in_bytes",
+          "value": 51739
+        },
+        {
+          "name": "page_wait_timing",
+          "value": 174
+        },
+        {
+          "name": "page_size_in_bytes",
+          "value": 4392647
+        },
+        {
+          "name": "asset_count",
+          "value": 173
+        },
+        {
+          "name": "onload",
+          "value": 10812
+        },
+        {
+          "name": "oncontentload",
+          "value": 3613
+        }
+      ],
+      "artefacts": {
+        "filmstrip": {
+          "thumbs": [
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92616377.538.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92618559.68.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92618673.289.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92618695.686.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92618891.632.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92619004.122.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92622772.673.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92624590.528.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92624669.164.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92624936.709.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92625673.468.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92625820.62.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92626055.709.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92626254.509.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92626561.793.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92627054.58.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92627366.656.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92628662.639.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92629145.105.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92629664.241.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92629781.176.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92629953.903.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92633329.578.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92633472.897.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92633701.97.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92633829.745.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92634021.091.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92634204.683.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/92635871.293.jpg"
+          ],
+          "video": "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/screencast.mp4",
+          "gif": "https://calibre-screenshots-prod.s3.amazonaws.com/da45c4ff-e1f2-4d1e-8cac-a1a631f37d1b/video-timeline/screencast.gif"
+        },
+        "har": "https://calibre-screenshots-prod.s3.amazonaws.com/0e258207b49d42f63f06715b6ebfe86e/https___www_ryanair_com_gb_en_/har/20170613023335762.json"
+      }
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "status": "completed",
+      "endpoint": "https://www.ryanair.com/gb/en/",
+      "canonical": true,
+      "profile": "iPhone 6, 3G connection",
+      "metrics": [
+        {
+          "name": "lighthouse-best-practices-score",
+          "value": 69
+        },
+        {
+          "name": "lighthouse-accessibility-score",
+          "value": 77
+        },
+        {
+          "name": "lighthouse-performance-score",
+          "value": 6
+        },
+        {
+          "name": "lighthouse-pwa-score",
+          "value": 45
+        },
+        {
+          "name": "first-contentful-paint",
+          "value": 6163
+        },
+        {
+          "name": "first-meaningful-paint",
+          "value": 16398
+        },
+        {
+          "name": "dom-size",
+          "value": 2324
+        },
+        {
+          "name": "estimated-input-latency",
+          "value": 150
+        },
+        {
+          "name": "first-interactive",
+          "value": 19784
+        },
+        {
+          "name": "console_warnings",
+          "value": 0
+        },
+        {
+          "name": "speed_index",
+          "value": 15151
+        },
+        {
+          "name": "visually_complete",
+          "value": 15161
+        },
+        {
+          "name": "firstRender",
+          "value": 6166
+        },
+        {
+          "name": "json_size_in_bytes",
+          "value": 156038
+        },
+        {
+          "name": "image_size_in_bytes",
+          "value": 1389648
+        },
+        {
+          "name": "font_size_in_bytes",
+          "value": 27079
+        },
+        {
+          "name": "js_size_in_bytes",
+          "value": 554429
+        },
+        {
+          "name": "css_size_in_bytes",
+          "value": 148408
+        },
+        {
+          "name": "html_size_in_bytes",
+          "value": 41375
+        },
+        {
+          "name": "page_wait_timing",
+          "value": 308
+        },
+        {
+          "name": "page_size_in_bytes",
+          "value": 2335165
+        },
+        {
+          "name": "asset_count",
+          "value": 117
+        },
+        {
+          "name": "onload",
+          "value": 18968
+        },
+        {
+          "name": "oncontentload",
+          "value": 12208
+        }
+      ],
+      "artefacts": {
+        "filmstrip": {
+          "thumbs": [
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91886634.302.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91892800.729.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91892875.366.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91892944.683.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91893073.419.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91893356.705.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91893923.319.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91894991.694.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91897228.469.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91899440.687.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91900706.4.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91901239.849.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91901524.645.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91901644.852.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91901727.296.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91901763.762.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91901779.881.jpg",
+            "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/91901796.19.jpg"
+          ],
+          "video": "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/screencast.mp4",
+          "gif": "https://calibre-screenshots-prod.s3.amazonaws.com/a9dfaf3c-16b7-4eb5-a791-6c207498de40/video-timeline/screencast.gif"
+        },
+        "har": "https://calibre-screenshots-prod.s3.amazonaws.com/db5aa65d3bc7a4167b7c0b0ffb091f60/https___www_ryanair_com_gb_en_/har/20170613023335169.json"
+      }
+    }
+  ]
+}

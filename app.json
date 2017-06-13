@@ -14,8 +14,8 @@
       "description": "A Geckoboard API key",
       "required": true
     },
-    "CALIBRE_API_KEY": {
-      "description": "The API key of the site in Calibre",
+    "METRIC_WHITELIST": {
+      "description": "Whitelist of metrics that should be sent to Geckoboard (See readme for help)",
       "required": true
     }
   }
