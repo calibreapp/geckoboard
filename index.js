@@ -20,13 +20,13 @@ app.post('/webhook', (req, res) => {
 
     geckoboard.datasets.findOrCreate({ id, fields }, (err, table) => {
       if (err) {
-        console.error(err)
+        console.error('findOrCreate', err)
         return
       }
 
       table.post([values], {}, err => {
         if (err) {
-          console.error(err)
+          console.error('post', err)
           return
         }
       })
