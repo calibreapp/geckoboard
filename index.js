@@ -17,6 +17,7 @@ app.post('/webhook', (req, res) => {
 
   metrics.datatables.forEach(dataset => {
     const { id, fields, values } = dataset
+    console.log('Updating datatable', id)
 
     geckoboard.datasets.findOrCreate({ id, fields }, (err, table) => {
       if (err) {
