@@ -12,9 +12,12 @@ const port = process.env.PORT || 3000
 
 app.use(bodyParser.json())
 app.use((err, req, res, next) => {
-  if (err) return console.error('Unable to parse', req.body)
-  return next()
-});
+  if (err) {
+    console.error('Unable to parse', req.body)
+  }
+
+  next()
+})
 
 app.post('/webhook', (req, res) => {
   metrics = new Metrics({ payload: req.body, metricWhitelist: metricWhitelist })
