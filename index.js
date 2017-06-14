@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 app.use((err, req, res, next) => {
   if (err) {
     console.error('Unable to parse', req.body)
-    return res.send(500, { status: 'error' })
+    return res.status(500).json({ status: 'error' })
   }
 
   return next()
