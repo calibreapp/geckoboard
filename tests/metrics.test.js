@@ -4,11 +4,14 @@ import Metrics from '../src/metrics'
 test('returns the datatables', () => {
   const metrics = new Metrics({
     payload: exampleData,
-    metricWhitelist: ['visually-complete']
+    metricWhitelist: ['visually-complete', 'speed-index']
   })
 
-  expect(metrics.datatables.length).toBe(2)
-  expect(metrics.datatables[0]).toEqual({
+  expect(metrics.datatables.size).toBe(2)
+  expect(metrics.datatables.has("calibre.ryanair.visually-complete")).toBe(true)
+  expect(metrics.datatables.has("calibre.ryanair.speed-index")).toBe(true)
+
+  expect(metrics.datatables.get("calibre.ryanair.visually-complete")).toEqual({
     "id": "calibre.ryanair.visually-complete",
     "fields": {
       "page": {
@@ -36,13 +39,23 @@ test('returns the datatables', () => {
         "type": "number",
       },
     },
-    "values": {
-      "page": "home",
-      "profile": "chrome-desktop",
-      "site": "ryanair",
-      "timestamp": "2017-06-13T02:26:45Z",
-      "url": "https://www.ryanair.com/gb/en/",
-      "value": 19493
-    }
+    "values": [
+      {
+        "page": "home",
+        "profile": "chrome-desktop",
+        "site": "ryanair",
+        "timestamp": "2017-06-13T02:26:45Z",
+        "url": "https://www.ryanair.com/gb/en/",
+        "value": 19493
+      },
+      {
+        "page": "home",
+        "profile": "iphone-6-3g-connection",
+        "site": "ryanair",
+        "timestamp": "2017-06-13T02:26:45Z",
+        "url": "https://www.ryanair.com/gb/en/",
+        "value": 15161
+      }
+    ]
   })
 })

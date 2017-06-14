@@ -10,7 +10,7 @@ module.exports = class Metrics {
   }
 
   get datatables() {
-    let data = []
+    let table = new Map()
 
     const site = this.payload.site_id
 
@@ -22,10 +22,23 @@ module.exports = class Metrics {
         const metricName = slugify(metric.name)
         const id = `calibre.${site}.${metricName}`
 
+        // Skip metrics that we aren't interested in
         if (!this.metricWhitelist.includes(metricName)) return
 
-        data.push({
-          id: id,
+        let values = table.has(id) ? table.get(id).values : []
+
+        values.push({
+          site: site,
+          profile: profile,
+          page: slug,
+          url: page.endpoint.substring(0, 100),
+          value: metric.value,
+          timestamp: moment(this.payload.created_at).utc().format()
+        })
+
+        table.set(id, {
+          id,
+          values,
           fields: {
             site: { type: 'string', name: 'Site name' },
             profile: { type: 'string', name: 'Device profile' },
@@ -33,19 +46,11 @@ module.exports = class Metrics {
             url: { type: 'string', name: 'URL' },
             value: { type: 'number', name: 'Value' },
             timestamp: { type: 'datetime', name: 'Time' }
-          },
-          values: {
-            site: site,
-            profile: profile,
-            page: slug,
-            url: page.endpoint,
-            value: metric.value,
-            timestamp: moment(this.payload.created_at).utc().format()
           }
         })
       })
     })
 
-    return data
+    return table
   }
 }
