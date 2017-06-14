@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 app.post('/webhook', (req, res) => {
   metrics = new Metrics({ payload: req.body, metricWhitelist: metricWhitelist })
 
-  metrics.datatables.map(dataset => {
+  metrics.datatables.forEach(dataset => {
     const { id, fields, values } = dataset
 
     geckoboard.datasets.findOrCreate({ id, fields }, (err, table) => {
@@ -24,7 +24,7 @@ app.post('/webhook', (req, res) => {
         return
       }
 
-      table.post([values], {}, err => {
+      table.post(values, {}, err => {
         if (err) {
           console.error('post', err)
           return
