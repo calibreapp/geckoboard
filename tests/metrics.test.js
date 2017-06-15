@@ -8,11 +8,12 @@ test('returns the datatables', () => {
   })
 
   expect(metrics.datatables.size).toBe(2)
-  expect(metrics.datatables.has("calibre.ryanair.visually-complete")).toBe(true)
-  expect(metrics.datatables.has("calibre.ryanair.speed-index")).toBe(true)
+  expect(metrics.datatables.get("calibre.visually-complete").values.length).toBe(2)
+  expect(metrics.datatables.has("calibre.visually-complete")).toBe(true)
+  expect(metrics.datatables.has("calibre.speed-index")).toBe(true)
 
-  expect(metrics.datatables.get("calibre.ryanair.visually-complete")).toEqual({
-    "id": "calibre.ryanair.visually-complete",
+  expect(metrics.datatables.get("calibre.visually-complete")).toEqual({
+    "id": "calibre.visually-complete",
     "fields": {
       "page": {
         "name": "Page name",
@@ -41,16 +42,16 @@ test('returns the datatables', () => {
     },
     "values": [
       {
-        "page": "home",
-        "profile": "chrome-desktop",
+        "page": "Home",
+        "profile": "Chrome Desktop",
         "site": "ryanair",
         "timestamp": "2017-06-13T02:26:45Z",
         "url": "https://www.ryanair.com/gb/en/",
         "value": 19493
       },
       {
-        "page": "home",
-        "profile": "iphone-6-3g-connection",
+        "page": "Home",
+        "profile": "iPhone 6, 3G connection",
         "site": "ryanair",
         "timestamp": "2017-06-13T02:26:45Z",
         "url": "https://www.ryanair.com/gb/en/",

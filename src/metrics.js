@@ -14,13 +14,10 @@ module.exports = class Metrics {
 
     const site = this.payload.site_id
 
-    this.payload.pages.map(page => {
-      const slug = page.id
-      const profile = slugify(page.profile)
-
+    this.payload.pages.forEach(page => {
       page.metrics.map(metric => {
         const metricName = slugify(metric.name)
-        const id = `calibre.${site}.${metricName}`
+        const id = `calibre.${metricName}`
 
         // Skip metrics that we aren't interested in
         if (!this.metricWhitelist.includes(metricName)) return
@@ -28,9 +25,9 @@ module.exports = class Metrics {
         let values = table.has(id) ? table.get(id).values : []
 
         values.push({
-          site: site,
-          profile: profile,
-          page: slug,
+          site: site.substring(0, 100),
+          profile: page.profile.substring(0, 100),
+          page: page.name.substring(0, 100),
           url: page.endpoint.substring(0, 100),
           value: metric.value,
           timestamp: moment(this.payload.created_at).utc().format()
