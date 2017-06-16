@@ -1,6 +1,6 @@
 {
   "name": "Calibre Geckoboard",
-  "description": "Receive Calibre snapshot webhooks, push to Geckoboard",
+  "description": "Receive Calibre snapshot webhooks, push to Geckoboard datasets",
   "repository": "https://github.com/calibreapp/geckoboard",
   "logo": "https://icons.calibreapp.com/https%3A%2F%2Fcalibreapp.com",
   "keywords": [
@@ -15,8 +15,7 @@
       "required": true
     },
     "METRIC_WHITELIST": {
-      "description": "Whitelist of metrics that should be sent to Geckoboard (See readme for help)",
-      "required": true
+      "description": "Whitelist of metrics that should be sent to Geckoboard (See README.md for help)"
     }
   }
 }

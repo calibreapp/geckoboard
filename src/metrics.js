@@ -20,7 +20,7 @@ module.exports = class Metrics {
         const id = `calibre.${metricName}`
 
         // Skip metrics that we aren't interested in
-        if (!this.metricWhitelist.includes(metricName)) return
+        if (this.metricWhitelist && !this.metricWhitelist.includes(metricName)) return
 
         let values = table.has(id) ? table.get(id).values : []
 
