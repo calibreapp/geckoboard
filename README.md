@@ -4,15 +4,13 @@
 
 * Get your [Geckoboard API key](https://app.geckoboard.com/account)
 * [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/calibreapp/geckoboard)
-* Copy the `webhook URL` from the app that you just deployed to heroku (`<your-deployed-app>.herokuapp.com`)
+* Visit the url of the heroku app you just deployed to find the webhook url (`<your-deployed-app>.herokuapp.com`)
 * For each site that you want to report metrics from, create a new webhook (Calibre→Site→Settings→Integrations) and paste in the `webhook URL`
-
-
 
 ## Settings
 
 * **GECKOBOARD_API_KEY** - The API key from your Geckoboard account
-* **METRIC_WHITELIST** - `visually-complete,oncontentload` (Full list available below). Leaving this blank will result in *all* metrics being delivered to geckoboard.
+* **METRIC_WHITELIST** - `visually-complete,oncontentload` (Full list available below). Not setting this will result in *all* metrics being delivered to geckoboard.
 
 
 ## Metrics Calibre outputs
