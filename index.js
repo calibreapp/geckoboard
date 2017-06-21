@@ -16,7 +16,7 @@ const port = process.env.PORT || 3000
 
 app.set('view engine', 'hbs')
 app.set('views', __dirname + '/views')
-app.use(bodyParser.json())
+app.use(bodyParser.json({ strict: false }))
 app.use((err, req, res, next) => {
   if (err) {
     console.error('Unable to parse', req.body)
