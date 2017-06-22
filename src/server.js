@@ -16,7 +16,7 @@ app.set('views', __dirname + '/views')
 app.use(bodyParser.json({ strict: false, limit: '10mb' }))
 app.use((err, req, res, next) => {
   if (err) {
-    console.error('Unable to parse', req.body)
+    console.error('Unable to parse', err.message)
     return res.status(500).json({ status: 'error' })
   }
 
