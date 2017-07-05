@@ -1,6 +1,8 @@
 const url = require('url')
+const path = require('path')
 
 const express = require('express')
+const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const geckoboard = require('geckoboard')(process.env.GECKOBOARD_API_KEY)
 
@@ -11,8 +13,9 @@ if (process.env.METRIC_WHITELIST) metricWhitelist = process.env.METRIC_WHITELIST
 
 const app = express()
 
-app.set('view engine', 'hbs')
-app.set('views', __dirname + '/views')
+app.engine('handlebars', exphbs({ defaultLayout: 'index' }))
+app.set('view engine', 'handlebars')
+
 app.use(bodyParser.json({ strict: false, limit: '10mb' }))
 app.use((err, req, res, next) => {
   if (err) {
