@@ -1,8 +1,8 @@
 # Calibre Metrics on a Geckoboard Dashboard 📈
 [![Calibre metrics on a Geckoboard preview](dashboard-preview.png)](https://youtu.be/6GsDtYFeUdA)
 
-## [📚 Follow the step by step guide](#step-by-step-walk-through)
-## [🏫 Watch the video tutorial to set this up](https://youtu.be/6GsDtYFeUdA)
+## [📚 Follow the step by step setup guide](#step-by-step-walk-through)
+## [🏫 Watch the 1:30 video step by step setup guide](https://youtu.be/6GsDtYFeUdA)
 
 ### Tldr; setup guide
 
