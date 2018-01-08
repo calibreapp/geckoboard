@@ -9,7 +9,8 @@ const geckoboard = require('geckoboard')(process.env.GECKOBOARD_API_KEY)
 const Metrics = require('./metrics')
 
 let metricWhitelist
-if (process.env.METRIC_WHITELIST) metricWhitelist = process.env.METRIC_WHITELIST.split(',').map(s => s.trim())
+if (process.env.METRIC_WHITELIST)
+  metricWhitelist = process.env.METRIC_WHITELIST.split(',').map(s => s.trim())
 
 const app = express()
 
@@ -38,7 +39,10 @@ app.get('/', (req, res) => {
 })
 
 app.post('/webhook', (req, res) => {
-  metrics = new Metrics({ payload: req.body, metricWhitelist: metricWhitelist })
+  metrics = new Metrics({
+    payload: req.body,
+    metricWhitelist: metricWhitelist
+  })
 
   metrics.datatables.forEach(dataset => {
     const { id, fields, values } = dataset
