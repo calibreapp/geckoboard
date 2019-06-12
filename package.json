@@ -15,7 +15,7 @@
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
     "geckoboard": "^1.1.0",
-    "moment": "^2.18.1",
+    "moment": "^2.24.0",
     "slug": "^0.9.1"
   },
   "scripts": {
