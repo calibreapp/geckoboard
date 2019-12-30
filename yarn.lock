@@ -2308,9 +2308,9 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
-slug@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/slug/-/slug-1.1.0.tgz#73eef5710416f515077bdf70c683bde4915913c9"
+slug@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/slug/-/slug-2.0.0.tgz#842b60f9f827aac045fe5894d8426e9624578f6f"
   dependencies:
     unicode ">= 0.3.1"
 
