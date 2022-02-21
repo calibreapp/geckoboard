@@ -1804,9 +1804,9 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
-geckoboard@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/geckoboard/-/geckoboard-1.1.0.tgz#d5f0cd16c13224bb25f3cd2b7f0e29c052de8fe0"
+geckoboard@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/geckoboard/-/geckoboard-1.2.0.tgz#c426d8744747edb31ec16ba775fca36e0f76e416"
   dependencies:
     request "^2.72.0"
 
