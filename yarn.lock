@@ -1614,12 +1614,12 @@ expect@^27.5.1:
     jest-matcher-utils "^27.5.1"
     jest-message-util "^27.5.1"
 
-express-handlebars@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/express-handlebars/-/express-handlebars-6.0.2.tgz#4d377751e3ef70a661aba76d921dee563b08b35a"
+express-handlebars@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/express-handlebars/-/express-handlebars-6.0.4.tgz#e08ae3290da4b6022cc0b162c2a79d137d80114b"
   dependencies:
     glob "^7.2.0"
-    graceful-fs "^4.2.8"
+    graceful-fs "^4.2.10"
     handlebars "^4.7.7"
 
 express@^4.17.3:
@@ -1847,9 +1847,9 @@ globals@^9.0.0:
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
 
-graceful-fs@^4.1.2, graceful-fs@^4.2.8, graceful-fs@^4.2.9:
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
+graceful-fs@^4.1.2, graceful-fs@^4.2.10, graceful-fs@^4.2.9:
+  version "4.2.10"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
 
 handlebars@^4.7.7:
   version "4.7.7"
