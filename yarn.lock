@@ -3397,9 +3397,9 @@ slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
 
-slug@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/slug/-/slug-5.2.0.tgz#92f478dc01eedb6cd14def4c4cfe702409612204"
+slug@^8.2.2:
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/slug/-/slug-8.2.2.tgz#33b019a857a11fc4773c1e9a9f60e3da651a9e5d"
 
 sntp@1.x.x:
   version "1.0.9"
